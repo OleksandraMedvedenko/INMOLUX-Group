@@ -3,44 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - INMOLUX Group</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="wrapper">
         <header class="header">
-            <div class="header__container">
-                <a href="#" class="header__logo">
-                    <img src="/logo.svg" alt="">
-                </a>
-                <a href="#" class="header__projects">OUR PROJECTS</a>
-                <nav class="menu">
-                    <ul class="menu__list">
-                        <li class="menu__list-item"><a href="#">PROPERTIES</a></li>
-                        <li class="menu__list-item">
-                            <a href="#">SERVICES</a>
-                            <ul class="menu__list-item submenu">
-                                <li><a href="#">CONSTRUCTION</a></li>
-                                <li><a href="#">RENOVATION AND RECONSTRUCTION</a></li>
-                                <li><a href="#">PROJECT MANAGEMENT</a></li>
-                                <li><a href="#">SELL PROPERTY</a></li>
-                                <li><a href="#">BUY PROPERTY</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu__list-item"><a href="#">ABOUT</a></li>
-                        <li class="menu__list-item"><a href="#">CONTACTS</a></li>
-                    </ul>
-                </nav>
-                <div class="options">
-                    <div class="options__items">
-                        <div class="options__items-item">
-                            <img src="/icon.svg" alt="">
+            <div class="container">
+                <div class="header__inner">
+                    <a href="index.html" class="logo">
+                        <img class="logo__img" src="logo.svg" alt="">
+                    </a>
+                    <nav class="menu">
+                        <button class="menu__btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                        <ul class="menu__list">
+                            <li class="menu__list-item">
+                                <a href="#" class="menu__list-link link-projects">Our projects</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="#" class="menu__list-link">Properties</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="#" class="menu__list-link">Services</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="#" class="menu__list-link">About</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="#" class="menu__list-link">Contacts</a>
+                            </li>
+                        </ul>
+                        <div class="menu__options">
+                            <div class="menu__options-icon">
+                                <img src="/icon.svg" alt="">
+                            </div>
+                            <div class="menu__options-language">
+                                <button class="optins__language-btn">EN</button>
+                            </div>
                         </div>
-                        <div class="options__items-item">
-                            <button class="language">EN</button>
-                        </div>
-                    </div>
+                    </nav>
                 </div>
             </div>
         </header>

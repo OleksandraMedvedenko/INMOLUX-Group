@@ -80,7 +80,7 @@ li {
 }
 .link-projects{
     margin-left: 188px;
-    margin-right: 212px;
+    margin-right: 202px;
 }
 .menu__list {
     display: flex;
@@ -95,9 +95,40 @@ li {
 .menu__list-link:hover{
     color: blue;
 }
-/*.menu__list-link--active{
-    color: #0066FF;
-}*/
+.toggle-icon {
+    color: #fff;
+    cursor: pointer;
+    padding-left: 5px;
+}
+.downward-arrow {
+    transform: rotate(90deg);
+    display: inline-block;
+}
+.submenu {
+    display: inline-flex;
+    padding: 20px 30px 30px 20px;
+    align-items: center;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.submenu__list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+.submenu__list-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submenu__list-link {
+}
 .menu__options {
     display: flex;
     align-items: center;

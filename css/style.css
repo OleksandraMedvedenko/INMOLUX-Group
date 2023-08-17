@@ -43,6 +43,7 @@ li {
 .header-main{
     background-color: transparent;
     position: absolute;
+    z-index: 10;
     left: 0;
     right: 0;
 }
@@ -163,9 +164,10 @@ li {
 }
 /*-------------------------------------*/
 .footer {
+    margin-top: auto;
     background-color: #151515;
-    padding-top: 90px;
-    padding-bottom: 35px;
+    /*padding-top: 90px;
+    padding-bottom: 35px;*/
     color: #B7B5B5;
 }
 .footer__menu {
@@ -284,4 +286,38 @@ li {
 .footer__copy-logo {
     padding-left: 30px;
     vertical-align: -webkit-baseline-middle;
+}
+/*-----------------------------------------*/
+.main{
+    flex-grow: 1;
+}
+.top{
+    background-image: url("/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    padding-top: 250px;
+    padding-bottom: 50px;
+    position: absolute;
+    z-index: 5;
+    left: 0;
+    right: 0;
+}
+.title{
+    padding-bottom: 40px;
+    font-size: 96px;
+    font-weight: 700;
+}
+.top__link{
+    background-color: transparent;
+    padding: 23px;
+    max-width: 430px;
+    width: 100%;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 700;
 }

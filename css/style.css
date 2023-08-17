@@ -175,7 +175,6 @@ li {
 .footer__menu-logo {
     padding-top: 60px;
 }
-.logo__img {}
 .footer__menu-pages{
     display: flex;
     justify-content: space-between;
@@ -196,9 +195,6 @@ li {
 .menu__list-logo{
     padding-top: 60px;
     margin-right: 148px;
-}
-.footer__menu-item {
-    
 }
 .footer__menu-title {
     font-size: 20px;
@@ -231,8 +227,7 @@ li {
     align-items: flex-start;
     gap: 16px;
 }
-.copy__nav-item {}
-.copy__nav-link {}
+
 .footer__contact-pages{
     display: flex;
     /*justify-content: space-between;*/
@@ -267,7 +262,6 @@ li {
 .footer__contact-list:nth-child(4) {
     padding-right: 16px; 
 }
-.footer__contact-item {}
 .footer__contact-title {
     font-size: 20px;
     font-weight: 500;
@@ -287,10 +281,6 @@ li {
     display: flex;
     justify-content: space-between;
 }
-.footer__copy-text {
-    
-}
-
 .footer__copy-logo {
     padding-left: 30px;
     vertical-align: -webkit-baseline-middle;

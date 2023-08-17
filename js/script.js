@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
             menuItem.classList.toggle("active"); // Добавляем/удаляем класс active к пункту меню
 
             // Добавьте код для изменения стилей шапки и изображения иконки
-            const header = document.querySelector(".header");
+            const header = document.querySelector(".header-main");
             const logoImg = document.querySelector(".logo__img");
             const menuListLinks = document.querySelectorAll(".menu__list-link");
             const submenuListLinks = document.querySelectorAll(".submenu__list-link");

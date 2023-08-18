@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300,regular,700&display=swap);
+@import url("https://fonts.googleapis.com/css?family=Lato:300,regular,700&display=swap");
 
 .html{
     box-sizing: border-box;
@@ -10,35 +10,39 @@
 }
 html,body{
     height: 100%;
-    min-width: 320px;
 }
-body{
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.28;
+ul{
+    list-style: none;
 }
-a {
+a{
     text-decoration: none;
     color: inherit;
 }
-li {
-    list-style: none;
-}
-/*-------------------*/
-.wrapper {
+/*.section-title {
+    margin-bottom: 50px;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}*/
+.wrapper{
     min-height: 100%;
     display: flex;
     flex-direction: column;
 }
-/*-----------------------------------*/
 .container {
     max-width: 1360px;
     margin: 0 auto;
-    padding: 0 40px;
+    padding: 0 10px;
+}
+.body{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.3;
 }
 /*---------------------------*/
 .header {
-    /*background-color: #fff;*/
+    background-color: #fff;
+    color: #101112;
 }
 .header-main{
     background-color: transparent;
@@ -77,7 +81,7 @@ li {
 }
 .link-projects{
     margin-left: 188px;
-    margin-right: 200px;
+    margin-right: 140px;
 }
 .menu__list {
     display: flex;
@@ -164,10 +168,9 @@ li {
 }
 /*-------------------------------------*/
 .footer {
-    margin-top: 1035px;
+    margin-top: auto;
     background-color: #151515;
-    /*padding-top: 90px;
-    padding-bottom: 35px;*/
+    padding-bottom: 50px;
     color: #B7B5B5;
 }
 .footer__menu {
@@ -220,8 +223,8 @@ li {
 }
 .copy__nav {
     padding-top: 60px;
-    margin-right: 231px;
-    width: 107px;
+    margin-right: 180px;
+    width: 190px;
 }
 .copy__nav-list {
     display: flex;
@@ -235,7 +238,7 @@ li {
     /*justify-content: space-between;*/
     padding-top: 60px;
     column-gap: 70px;
-    margin-left: 13px;
+    /*margin-left: 60px;*/
 }
 .footer__contact {
     /*margin-top: 60px;
@@ -339,3 +342,113 @@ li {
     text-transform: uppercase;
 }
 /*----------------------------*/
+.about {
+    margin-top: 1036px;
+    padding-top: 140px;
+}
+
+.about__inmolux {
+    width: 100%; 
+    text-align: center; 
+    color: #101112;
+    font-size: 106px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 0.94;/*99.64px*/
+    word-wrap: break-word;
+    margin-bottom: 24px;
+}
+.about__group {
+    width: 100%; 
+    text-align: center;
+    color: #101112;
+    font-size: 106px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 0.94; /*99.64px*/
+    word-wrap: break-word;
+    margin-bottom: 40px;
+}
+.subtitle {
+    width: 100%; 
+    text-align: center;
+    color: #101112;
+    font-size: 36px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 1.1;/*39.60px*/
+    word-wrap: break-word;
+    margin-bottom: 40px;
+}
+.about__text {
+    width: 100%; 
+    text-align: center;
+    color: #39393C;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.46;/*23.36px*/
+    word-wrap: break-word;
+}
+.about__more {
+    padding-bottom: 4px; 
+    border-bottom: 0.50px #101112 solid;
+    justify-content: center; 
+    align-items: flex-start; 
+    gap: 10px; 
+    display: inline-flex;
+    margin-top: 40px;
+    margin-bottom: 140px;
+    margin-left: 630px;
+}
+.section-link{
+    color: #101112; 
+    font-size: 14px;
+    font-weight: 500; 
+    text-transform: uppercase; 
+    line-height: 1.28; /*17.92px*/
+    letter-spacing: 0.56px; 
+    word-wrap: break-word;
+}
+/*-----------------------------*/
+.projects {
+}
+.projects__header {
+}
+.projects__header-title {
+}
+.projects__header-text {
+}
+.text-header {
+}
+.projects__slider {
+}
+.swiper {
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+}
+.swiper__slide-image {
+}
+.swiper__slide-gradient {
+}
+.swiper__slide-number {
+}
+.swiper__slide-name {
+}
+.swiper__slide-title {
+}
+.swiper__slide-subtitle {
+}
+.swiper__slide-bottom {
+}
+.swiper__slide-square {
+}
+.swiper__slide-price {
+}
+.swiper-pagination {
+}
+.projects__more {
+}
+.section-link {
+}

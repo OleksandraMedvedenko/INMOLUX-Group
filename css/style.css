@@ -771,6 +771,8 @@ a{
 } 
 /*----------------------------------------*/
 .selection {
+    width: 100%;
+    background-color: #181818;
 }
 .selection__inner {
     display: flex;

@@ -922,3 +922,281 @@ a{
     text-transform: uppercase;
 }
 /*-------------------------------*/
+.office {
+    height: 400px;
+    margin-bottom: 140px;
+}
+.office__inner {
+    width: 100%; 
+    height: 100%; 
+    position: relative;
+}
+.office__img {
+    width: 664px; 
+    height: 400px; 
+    left: 388px; top: 0px; 
+    position: absolute;
+}
+.office__title-office {
+    left: 40px; top: 0px; 
+    position: absolute; 
+    color: #101112; 
+    font-size: 62px; 
+    font-family: Lato; 
+    font-weight: 300; 
+    text-transform: uppercase; 
+    line-height: 62px; 
+    word-wrap: break-word;
+}
+.office__title-group {
+    width: 316px; 
+    left: 40px; top: 68px; 
+    position: absolute; 
+    text-align: right; 
+    color: #101112; 
+    font-size: 62px; 
+    font-family: Lato; 
+    font-weight: 300; 
+    text-transform: uppercase; 
+    line-height: 62px; 
+    word-wrap: break-word;
+}
+.office__data {
+    left: 1084px; 
+    top: 241px; 
+    position: absolute; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 60px; 
+    display: inline-flex;
+}
+.office__address {
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 10px; 
+    display: flex;
+}
+.office__address-title {
+    color: #101112; 
+    font-size: 20px; font-family: Lato; 
+    font-weight: 500; 
+    text-transform: uppercase; 
+    line-height: 26.80px; 
+    word-wrap: break-word;
+}
+.office__address-text {
+    width: 316px; 
+    color: #39393C; 
+    font-size: 16px; font-family: Lato; 
+    font-weight: 400; 
+    line-height: 20.48px; 
+    word-wrap: break-word;
+}
+.office__number {
+    padding-bottom: 4px; 
+    justify-content: center; 
+    align-items: flex-start; 
+    gap: 10px; 
+    display: inline-flex;
+}
+.office__number-text {
+    color: #101112; 
+    font-size: 14px; font-family: Lato; 
+    font-weight: 500; 
+    text-transform: uppercase; 
+    line-height: 17.92px; 
+    letter-spacing: 0.56px; 
+    word-wrap: break-word;
+}
+/*------------------------------------------*/
+.blog {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 100px;
+}
+.blog__title {
+    width: 814px;
+    color: #101112;
+    font-family: Lato;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%; /* 62px */
+    text-transform: uppercase;
+}
+.blog__items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.blog__item {
+    display: flex;
+    width: 432px;
+    height: 354px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    background: #FFF;
+}
+.item-short{
+    padding-bottom: 27px;
+}
+.blog__item-img {
+    width: 432px;
+    height: 240px;
+}
+.blog__item-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+.blog__item-title {
+    color: #101112;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 134%; /* 26.8px */
+    text-transform: uppercase;
+}
+.blog__item-date {
+    color: #5E5E5E;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 19.6px */
+}
+.blog__item-link {
+}
+.blog__more {
+    padding-bottom: 4px; 
+    border-bottom: 0.50px #101112 solid;
+    justify-content: center; 
+    align-items: flex-start; 
+    gap: 10px; 
+    display: inline-flex;
+    margin-left: 650px;
+}
+/*----------------------------------------*/
+.contacts {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 160px;
+}
+.contacts__inner{
+    display: flex;
+    width: 100%;
+    height: 460px;
+    /*padding: 0px 156px;*/
+    justify-content: center;
+    align-items: flex-start;
+    gap: 232px;
+    margin-top: 100px;
+}
+.contacts__section-text {
+    width: 464px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.contacts__title {
+    color: #101112;
+    font-family: Lato;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 110%; /* 39.6px */
+    text-transform: uppercase;
+}
+.contacts__text {
+    width: 432px;
+    color: #39393C;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 146%; /* 23.36px */
+}
+.form {
+    width: 432px;
+    height: 460px;
+}
+.form__input {
+    width: 432px;
+    height: 54px;
+    margin-bottom: 10px;
+    border: 1px solid #ECECEC;
+    background: #FFF;
+    border-bottom: 1px solid #101112;
+}
+.form__textarea {
+    width: 432px;
+    height: 108px;
+    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #101112;
+    margin-bottom: 16px;
+}
+.form__input::placeholder,
+.form__textarea::placeholder {
+    color: #B7B5B5;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 128%; /* 20.48px */
+}
+.form__checkbox-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
+}
+.form__checkbox-label a{
+    padding-bottom: 2px; 
+    border-bottom: 0.50px #101112 solid;
+    margin-left: -10px;
+}
+.form__checkbox {
+    width: 22px;
+    height: 22px;
+    border: 1px solid #C7C8C9;
+}
+.form__checkbox::selection + .form__checkbox-label::before {
+    display: flex;
+    content: "\2713";
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #39393C;
+}
+
+.form__btn {
+    display: flex;
+    width: 432px;
+    height: 54px;
+    padding: 18px 0px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background: #101112;
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 128%; /* 17.92px */
+    letter-spacing: 0.56px;
+    text-transform: uppercase;
+}
